@@ -3,6 +3,7 @@ Library/
 obj/
 *.svd
 *.sln
+*.exe
  
 !Library/*.asset
 !Library/AssetImportState

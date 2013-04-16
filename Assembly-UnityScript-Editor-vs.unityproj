@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E9E4BFBC-C0BB-627F-993E-A474983C6648}</ProjectGuid>
+	<ProjectGuid>{E0A63A87-F1D8-A1FB-D866-04C309E8EED8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,6 +48,7 @@
      <Compile Include="Assets\6by7\ProGrids\Scripts\Editor\ProGrids_Ed.js" />
      <Compile Include="Assets\6by7\ProGrids\Scripts\Editor\ProGrids_GUI.js" />
      <Compile Include="Assets\6by7\ProGrids\Scripts\Editor\RemoveGrid.js" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\6by7\ProBuilder\VersionInfo.txt" />
      <None Include="Assets\6by7\_README-ProGrids-Free.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
@@ -68,9 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{657D20BD-066E-E4E3-4F67-BAA41AB16728}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{176DDCF9-9C60-398B-F6F8-19444CF6B0B8}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{AE7EAE37-C6BB-0F4A-C144-E7FEBEB66408}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{097FD7A2-DDFD-8E27-2A0C-0E36C8F13959}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

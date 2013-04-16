@@ -45,7 +45,7 @@ class ProGrids_GUI extends ProGrids_Base
 
 		toggleSnapGraphic = snapOnGraphic;
 		toggleVisGraphic = visOnGraphic;
-		toggleAnglesGraphic = anglesOnGraphic;
+		//toggleAnglesGraphic = anglesOnGraphic;
 		
 		snapSizeGraphic = (Resources.LoadAssetAtPath("Assets/6by7/Shared/GUI/icon_GridSize.tga", typeof(Object)));
 	}
